@@ -1,0 +1,46 @@
+<resources>
+
+
+    <string name="app_name">ControleJogos</string>
+
+    <!--Tela cadastro-->
+    <string name="titulo_cadJogos">Cadastrar Jogo</string>
+    <string name="edit_nome">Nome:</string>
+    <string name="edit_ano">Ano:</string>
+    <string name="edit_plataforma">Plataforma:</string>
+    <string name="edit_genero">Genero:</string>
+    <string name="edit_produtora">Produtora:</string>
+    <string name="hint_nomeJogo">Qual o nome do jogo?</string>
+    <string name="hint_plataforma">Para qual plataforma é este jogo?</string>
+    <string name="hint_genero">Qual genero deste jogo?</string>
+    <string name="hint_ano">Em qual ano foi lançado este jogo?</string>
+    <string name="hint_produtora">Qual empresa produziu o jogo?</string>
+
+
+    <!--Tela menu-->
+
+    <string name="titulo_jogos">Cadastrar</string>
+    <string name="titulo_menu">Menu Principal</string>
+    <string name="lista_jogos">Lista de jogos</string>
+
+
+    <!--Botoes-->
+    <string name="button_cad">Cadastrar</string>
+    <string name="button_voltar">Voltar</string>
+    <string name="button_listar">Lista</string>
+    <string name="button_sair">Sair</string>
+    <string name="button_fechar">Fechar</string>
+    <string name="button_adicionar">Adicionar</string>
+    <string name="button_editar">Editar</string>
+    <string name="button_excluir">Excluir</string>
+    <string name="button_entrar">Entrar</string>
+    <string name="button_jogos">Jogos</string>
+    <string name="cep">Cep</string>
+
+    <!--Mensagens-->
+
+    <string name="mens_cadSuc">Seu jogo foi cadastrado</string>
+    <string name="mens_cadSemSuc">Não foi possivel cadastrar seu jogo</string>
+    <string name="mens_editSuc">Seu jogo foi editado com sucesso</string>
+
+</resources>

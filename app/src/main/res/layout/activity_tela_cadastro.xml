@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    android:background="@drawable/player"
+    android:backgroundTint="#54202020"
+    tools:context=".View.TelaCadastroActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/titulo_cadJogos"
+        android:textColor="#0277bd"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-smallcaps"
+
+        android:textSize="20dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_nome"
+        android:textStyle="bold"
+        android:textColor="#000070"
+        android:layout_marginBottom="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@android:style/Widget.EditText"
+        android:hint="@string/hint_nomeJogo"
+        android:textColor="#673AB7"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/editNome"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_ano"
+        android:inputType="number"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:textColor="#000070"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@android:style/Widget.EditText"
+        android:hint="@string/hint_ano"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/editAno"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_plataforma"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:textColor="#000070"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@android:style/Widget.EditText"
+        android:hint="@string/hint_plataforma"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/editPlataforma"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_genero"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:textColor="#000070"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@android:style/Widget.EditText"
+        android:hint="@string/hint_genero"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/editGenero"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_produtora"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:textColor="#000070"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@android:style/Widget.EditText"
+        android:hint="@string/hint_produtora"
+        android:layout_marginBottom="30dp"
+        android:id="@+id/editProdutora"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_margin="5sp"
+            android:layout_weight="1"
+            android:background="#9499b7"
+            android:backgroundTint="#852C379B"
+            android:onClick="cadastrar"
+            android:text="@string/button_cad"
+            android:textSize="15dp"
+            android:outlineAmbientShadowColor="#E80F0F0F"
+            android:outlineSpotShadowColor="#03A9F4"
+            android:shadowColor="@color/colorAccent"
+            android:textColor="#B93939"
+            android:textStyle="bold"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="5sp"
+            android:layout_weight="1"
+            android:background="#F29499B7"
+            android:textSize="15dp"
+            android:outlineAmbientShadowColor="#E80F0F0F"
+            android:outlineSpotShadowColor="#03A9F4"
+            android:shadowColor="@color/colorAccent"
+            android:textColor="#B93939"
+            android:textStyle="bold"
+            android:onClick="voltar"
+            android:text="@string/button_voltar"
+             />
+
+
+    </LinearLayout>
+
+</LinearLayout>

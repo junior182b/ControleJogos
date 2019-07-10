@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".View.TelaListarActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/lista_jogos"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#673AB7"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/lvJogos"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:cacheColorHint="#3F51B5"
+            android:textAlignment="center"></ListView>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="voltar"
+            android:textSize="20dp"
+            android:backgroundTint="@android:color/tertiary_text_dark"
+            android:outlineAmbientShadowColor="#E80F0F0F"
+            android:outlineSpotShadowColor="#03A9F4"
+            android:shadowColor="@color/colorAccent"
+            android:textColor="#0C0CBB"
+            android:textStyle="bold"
+            android:text="@string/button_voltar" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

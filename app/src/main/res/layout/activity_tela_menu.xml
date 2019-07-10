@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/pubg"
+    android:backgroundTint="#5B110C0C"
+    android:orientation="vertical"
+    tools:context=".View.TelaMenuActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo_menu"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:textColor="#7c4dff"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="30sp"
+        />
+
+    <LinearLayout
+        android:layout_width="382dp"
+        android:layout_height="609dp"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="141dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <Button
+                android:layout_width="102dp"
+                android:layout_height="97dp"
+                android:background="@mipmap/ic_akuma"
+                android:onClick="telaCadastro" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="82dp"
+                android:layout_marginTop="40dp"
+                android:background="@mipmap/ic_ryu"
+                android:onClick="telaListar" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="79dp"
+                android:layout_marginTop="40dp"
+                android:background="@mipmap/ic_blanca"
+                android:onClick="telaCep" />
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="78dp"
+                android:layout_marginTop="60dp"
+                android:background="@mipmap/ic_zang"
+                android:onClick="sairP" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="241dp"
+            android:layout_height="588dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="192dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10sp"
+                android:text="@string/button_cad"
+                android:textColor="#000"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="166dp"
+                android:layout_height="119dp"
+                android:layout_marginTop="6sp"
+                android:layout_marginBottom="10sp"
+                android:text="@string/button_jogos"
+                android:textColor="#000"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="166dp"
+                android:layout_height="119dp"
+                android:layout_marginTop="6sp"
+                android:layout_marginBottom="10sp"
+                android:text="@string/cep"
+                android:textColor="#000"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6sp"
+                android:layout_marginBottom="10sp"
+                android:text="@string/button_sair"
+                android:textColor="#000"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
+
+

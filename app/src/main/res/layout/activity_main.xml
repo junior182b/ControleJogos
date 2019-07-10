@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:background="#7c4dff"
+    android:layout_margin="10dp"
+    tools:context=".View.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Games Control"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:fontFamily="monospace"
+            android:textStyle="bold"
+            android:layout_marginBottom="30dp"
+            android:textCursorDrawable="@style/Widget.AppCompat.Light.ActionBar"
+            />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:src="@drawable/mario"
+            android:layout_width="match_parent"
+            android:layout_height="183dp"
+            android:layout_marginBottom="150dp"/>
+
+        <LinearLayout
+            android:layout_width="228dp"
+            android:layout_height="85dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_marginRight="30dp"
+
+                android:background="@mipmap/ic_scorp2"
+                android:baselineAligned="false"
+                android:focusableInTouchMode="true"
+                android:onClick="entrar"
+                android:outlineAmbientShadowColor="#E80F0F0F"
+                android:outlineSpotShadowColor="#03A9F4"
+                android:shadowColor="@color/colorAccent"
+                android:textStyle="bold" />
+
+
+            <Button
+
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:background="@mipmap/ic_sub"
+                android:focusableInTouchMode="true"
+                android:onClick="fechar"
+                android:outlineAmbientShadowColor="#E80F0F0F"
+                android:outlineSpotShadowColor="#03A9F4"
+                android:shadowColor="@color/colorAccent"
+                android:textColor="#fff" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+           >
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+ />
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+
+                android:layout_weight="1"
+                android:text="@string/button_entrar"
+                android:textColor="#fff"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="89dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="@string/button_sair"
+                android:textColor="#fff"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+</LinearLayout>
+</LinearLayout>
